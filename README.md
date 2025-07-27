@@ -60,6 +60,19 @@ A **Godot 4** plugin that adds a custom editor dock for creating and editing loo
 
 ---
 
+## Example Screenshots
+
+<p align="center">
+	<img width="330" height="330" src="screenshot_empty.png">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<img width="330" height="330" src="screenshot_new.png">
+</p>
+<p align="center">
+	<img width="330" height="860" src="screenshot_example.png">
+</p>
+
+---
+
 ## 🤝 Contributing
 
 1. Fork the repo and create a feature branch (`git checkout -b feat/awesome-feature`).
