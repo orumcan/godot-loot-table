@@ -10,10 +10,17 @@ config_version=5
 
 [application]
 
-config/name="GodotLootTable"
+config/name="LootTable"
+config/version="1.0"
 config/features=PackedStringArray("4.4", "Forward Plus")
-config/icon="res://icon.svg"
+boot_splash/bg_color=Color(0.862745, 0.862745, 0.862745, 1)
+boot_splash/image="uid://cj544xt0vcg27"
+config/icon="uid://dbgykt4kp4uqr"
 
 [dotnet]
 
-project/assembly_name="GodotLootTable"
+project/assembly_name="LootTable"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/loot_table_editor/plugin.cfg")
