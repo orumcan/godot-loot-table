@@ -60,7 +60,7 @@ A **Godot 4** plugin that adds a custom editor dock for creating and editing loo
 
 ---
 
-## Example Screenshots
+## 🎨 Example Screenshots
 
 <p align="center">
 	<img width="330" height="330" src="screenshot_empty.png">
