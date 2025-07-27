@@ -14,6 +14,8 @@ config/name="LootTable"
 config/version="1.0"
 config/features=PackedStringArray("4.4", "Forward Plus")
 boot_splash/bg_color=Color(0.862745, 0.862745, 0.862745, 1)
+boot_splash/fullsize=false
+boot_splash/use_filter=false
 boot_splash/image="uid://cj544xt0vcg27"
 config/icon="uid://dbgykt4kp4uqr"
 
