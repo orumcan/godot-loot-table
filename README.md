@@ -1,0 +1,1 @@
+# godot-loot-table
