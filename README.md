@@ -4,7 +4,7 @@
 
 # Loot Table Editor
 
-A **Godot 4** plugin that adds a custom editor dock for creating and editing loot tables. With this tool you can visually define multiple `LootTable` resources (grouped by level), add weighted `LootEntry` items (with configurable drop amounts), and persist your data directly into `.tres` assets.
+A **Godot 4** plugin that adds a custom editor dock for creating and editing loot tables. With this tool you can visually define multiple `LootTable` resources (grouped by level), add weighted `LootEntry` items (with configurable drop amounts), and persist your data directly into Resource (`.tres`) assets.
 
 ---
 
@@ -56,7 +56,7 @@ A **Godot 4** plugin that adds a custom editor dock for creating and editing loo
 3. Open the **Loot Table Editor** dock from **Editor → Editor Docks → Loot Table Editor**. Use the picker to load `loot_db.tres`.
 4. Click **Add Table** to create a new table, set its **Level**, then **Add Entry** to configure drop items.
 5. For each entry, choose a **Loot Scene**, set **Amount** (how many to drop), and **Weight** (sampling probability).
-6. All changes are saved automatically into your `.tres` asset.
+6. All changes are saved automatically into your Resource (`.tres`) asset.
 
 ---
 
@@ -75,11 +75,7 @@ A **Godot 4** plugin that adds a custom editor dock for creating and editing loo
 
 ## 🤝 Contributing
 
-1. Fork the repo and create a feature branch (`git checkout -b feat/awesome-feature`).
-2. Commit your changes (`git commit -m "Add awesome feature"`).
-3. Push to the branch (`git push origin feat/awesome-feature`).
-4. Open a Pull Request and describe your changes.
-
+We welcome contributions! Please refer to our [CONTRIBUTING](CONTRIBUTING.md) file for detailed instructions on how to contribute to this project.
 Please follow the GDScript style guide and write clear commit messages.
 
 ---
