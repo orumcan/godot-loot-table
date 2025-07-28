@@ -47,11 +47,11 @@ A **Godot 4** plugin that adds a custom editor dock for creating and editing loo
    @export var loot_db: LootTableDatabase
 
    func _ready():
-       var entry = loot_db.pick_entry_by_level(player_level)
-       if entry:
-           for i in range(entry.amount):
-               var inst = entry.loot.instantiate()
-               add_child(inst)
+	   var entry = loot_db.pick_entry_by_level(player_level)
+	   if entry:
+		   for i in range(entry.amount):
+			   var inst = entry.loot.instantiate()
+			   add_child(inst)
    ```
 3. Open the **Loot Table Editor** dock from **Editor → Editor Docks → Loot Table Editor**. Use the picker to load `loot_db.tres`.
 4. Click **Add Table** to create a new table, set its **Level**, then **Add Entry** to configure drop items.
@@ -63,12 +63,12 @@ A **Godot 4** plugin that adds a custom editor dock for creating and editing loo
 ## 🎨 Example Screenshots
 
 <p align="center">
-	<img width="330" height="330" src="screenshot_empty.png">
+	<img width="330" height="330" src="images/screenshot_empty.png">
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	<img width="330" height="330" src="screenshot_new.png">
+	<img width="330" height="330" src="images/screenshot_new.png">
 </p>
 <p align="center">
-	<img width="330" height="860" src="screenshot_example.png">
+	<img width="330" height="860" src="images/screenshot_example.png">
 </p>
 
 ---
