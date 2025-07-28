@@ -1,5 +1,5 @@
 @tool
-@icon("res://chest_icon.png")
+@icon("res://assets/icons/chest_icon.png")
 class_name LootTableDatabase
 extends Resource
 
